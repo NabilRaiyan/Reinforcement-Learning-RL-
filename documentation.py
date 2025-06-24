@@ -41,9 +41,9 @@
 # Q(s,a) = Q(s,a) + α * [r + γ * max Q(s', a') - Q(s,a)]
         # Where:
         # 1. Q(s,a) = current value for state-action pair
-        # 2. α = learning rate (how much to update)
+        # 2. α (alpha) = learning rate (how much to update)
         # 3. r = reward received
-        # 4. γ = discount factor (importance of future rewards)
+        # 4. γ (gamma) = discount factor (importance of future rewards)
         # 5. max Q(s', a') = best future Q-value from next state
 
 # ----------------------------------------------
