@@ -2,9 +2,9 @@ import numpy as np
 import random
 import time
 
-num_states = 20
+num_states = 10
 actions = [0, 1]
-max_steps = 200
+max_steps = 50
 
 q_table = np.zeros((num_states, len(actions)))
 
